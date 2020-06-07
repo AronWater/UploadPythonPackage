@@ -12,18 +12,18 @@ Step
 2. Look at the setup.py to see what you wanna change, you would like to have a different package name
 3. Install `setuptools` and `wheel3`
 
-         `python3 -m pip install --user --upgrade setuptools wheel`
+         python3 -m pip install --user --upgrade setuptools wheel
 
 4. python3 setup.py sdist bdist_wheel
 5. Install Twine 
 
-          `python3 -m pip install --user --upgrade twine`
+          python3 -m pip install --user --upgrade twine
 
 6. Register an account in  https://test.pypi.org/account/register/
 
 7. Run Twine
 
-           `python3 -m twine upload --repository testpypi dist/*`
+           python3 -m twine upload --repository testpypi dist/*
 
 8. Input your username and password
 
