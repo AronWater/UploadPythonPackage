@@ -1,0 +1,1 @@
+This is a simple directory showing you how to upload a package to python
